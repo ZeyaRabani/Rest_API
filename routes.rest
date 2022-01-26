@@ -1,1 +1,32 @@
 GET http://localhost:3000/items
+
+###
+
+
+GET http://localhost:3000/items/61f02216d477ee7a939d2ed5
+
+
+###
+
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "name": "Phone",
+    "itemsBought": "phones"
+}
+
+
+###
+
+
+DELETE Http://localhost:3000/items/61f02216d477ee7a939d2ed5
+
+###
+
+Patch Http://localhost:3000/items/61f0f69dc009cea6cc12b14a
+content-Type: application/json
+
+{
+    "item": "new item"
+}

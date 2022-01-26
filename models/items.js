@@ -5,11 +5,11 @@ const itemsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    itemsToStore: {
+    itemsBought: {
         type: String,
         required: true
     },
-    itemDate: {
+    itemsDate: {
         type: Date,
         required: true,
         default: Date.now
